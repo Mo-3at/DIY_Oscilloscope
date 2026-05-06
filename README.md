@@ -10,7 +10,7 @@ This project is a simple DIY_Oscilloscope for students who want to learn using i
 
 
 
-The schematic is divided into six sections:
+The schematic is divided into four sections:
 
 1- The MCU: I selected the ESP-32 due to its affordability and processing power compared to othe MCUs in this price range 
 the ESP-32 will allow us to reach frequencies up to 100KHz.
