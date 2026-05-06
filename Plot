@@ -1,0 +1,107 @@
+{
+    "actions": [
+    ],
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "alarmEnabled": false,
+                    "alarmHigh": 80,
+                    "alarmLow": 20,
+                    "fft": false,
+                    "fftMax": 0,
+                    "fftMin": 0,
+                    "fftSamples": 256,
+                    "fftSamplingRate": 100,
+                    "graph": true,
+                    "index": 1,
+                    "led": false,
+                    "ledHigh": 80,
+                    "log": false,
+                    "overviewDisplay": false,
+                    "plotMax": 50,
+                    "plotMin": -50,
+                    "title": "valu1",
+                    "units": "",
+                    "value": "--.--",
+                    "widget": "",
+                    "widgetMax": 0,
+                    "widgetMin": 0,
+                    "xAxis": -1
+                }
+            ],
+            "title": "Group",
+            "widget": ""
+        },
+        {
+            "datasets": [
+                {
+                    "alarmEnabled": false,
+                    "alarmHigh": 80,
+                    "alarmLow": 20,
+                    "fft": false,
+                    "fftMax": 0,
+                    "fftMin": 0,
+                    "fftSamples": 256,
+                    "fftSamplingRate": 100,
+                    "graph": true,
+                    "index": 2,
+                    "led": false,
+                    "ledHigh": 80,
+                    "log": false,
+                    "overviewDisplay": false,
+                    "plotMax": 50,
+                    "plotMin": -50,
+                    "title": "value 2",
+                    "units": "",
+                    "value": "--.--",
+                    "widget": "",
+                    "widgetMax": 0,
+                    "widgetMin": 0,
+                    "xAxis": -1
+                }
+            ],
+            "title": "group 2",
+            "widget": ""
+        }
+    ],
+    "hexadecimalDelimiters": false,
+    "pointCount": 100,
+    "sources": [
+        {
+            "busType": 0,
+            "checksum": "",
+            "checksumAlgorithm": "",
+            "connection": {
+                "autoReconnect": false,
+                "baudRate": 10,
+                "dataBitsIndex": 3,
+                "dtr": true,
+                "flowControlIndex": 1,
+                "parityIndex": 0,
+                "portIndex": 0,
+                "stopBitsIndex": 0
+            },
+            "decoder": 0,
+            "decoderMethod": 0,
+            "frameDetection": 0,
+            "frameEnd": "\\n",
+            "frameParserCode": "/**\n * Comma-Separated Values (CSV) Parser\n *\n * Parses comma-separated data into an array of values.\n *\n * INPUT FORMAT: \"a,b,c,d,e,f\"\n * OUTPUT ARRAY: [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"]\n *\n * Note: Frame delimiters are automatically removed by Serial Studio.\n */\n\n//------------------------------------------------------------------------------\n// Frame Parser Function\n//------------------------------------------------------------------------------\n\n/**\n * Parses a CSV frame into an array of values.\n *\n * @param {string} frame - The CSV data from the data source\n * @returns {array} Array of string values\n */\nfunction parse(frame) {\n  return frame.split(',');\n}\n",
+            "frameStart": "$",
+            "hexadecimalDelimiters": false,
+            "sourceId": 0,
+            "title": "Device A"
+        }
+    ],
+    "title": "Untitled Project",
+    "widgetSettings": {
+        "2:1:-1": {
+            "interpolate": true,
+            "userShowLegends": true,
+            "visibleCurves": null
+        },
+        "9:0:2": {
+            "userShowXLabel": true
+        }
+    }
+}
