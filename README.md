@@ -39,5 +39,5 @@ the filterAlpha variable controls how strong the filter is if the signal is to l
 
 * PLOTTER
 
-I used Serial plotter for the plotting u coul learn how to use it or just use the plotter file i provided 
+I used Serial Studio for the plotting u coul learn how to use it or just use the plotter file i provided 
 
