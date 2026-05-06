@@ -13,7 +13,7 @@ This project is a simple DIY_Oscilloscope for students who want to learn using i
 The schematic is divided into four sections:
 
 1- The MCU: I selected the ESP-32 due to its affordability and processing power compared to othe MCUs in this price range 
-the ESP-32 will allow us to reach frequencies up to 100KHz.
+the ESP-32 will allow us to reach frequencies up to 100KHz. (I USED THE ESP-32 38 PIN NOT THE S2 AS IN THE SCHEMATIC)
 
 2- The Front-ends: We have two front ends for providing a two channel input, each front end is responsibble for loweing the input voltage to a safe value for the ESP-32 
 this is done using the voltage divider (you can have the voltage divider at whatever ration you want I chose to have this ratio and calibrate it to a max reading of 12Vac), 
