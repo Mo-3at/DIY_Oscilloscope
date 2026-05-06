@@ -1,4 +1,5 @@
 # DIY_Oscilloscope
+
 This project is a simple DIY_Oscilloscope for students who want to learn using it but cant afford one 
 
 * HARDWARE 
@@ -23,4 +24,17 @@ the op-amp is used to prevent higher voltages from passing to the clamper line (
 
 * SOFTWARE
 
+The code provides many features I will just mention the most important ones:
+
+1- The code provides a digital filter which filters the noise and makes the plot appear smoother 
+
+the filterAlpha variable controls how strong the filter is if the signal is to laggy raise it if it is too noisy lower it 
+
+2- The code uses a buffer to store a set of data to proccess and then passes them to the plotter 
+
+3- A mathematical eqation has been appleid to restore the original voltage (The math here was built according to the voltage divider values i used) 
+
+* PLOTTER
+
+I used Serial plotter for the plotting u coul learn how to use it or just use the plotter file i provided 
 
